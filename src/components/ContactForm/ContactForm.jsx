@@ -6,7 +6,6 @@ export class ContactForm extends React.Component {
   state = {
     name: '',
     number: '',
-    id: '',
   };
 
   handleChange = e => {
